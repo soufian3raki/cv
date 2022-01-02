@@ -97,6 +97,6 @@ mat-divider {
     color: lightgrey;
 }
 
-.mat-drawer-shown .mat-drawer-backdrop .ng-star-inserted {
-    background-color: #300e5685;
+.mat-drawer-backdrop.mat-drawer-shown {
+    backdrop-filter: blur(10px);
 }
